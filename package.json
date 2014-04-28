@@ -1,0 +1,16 @@
+{
+  "name": "bluemongoose",
+  "version": "0.0.0",
+  "description": "Promisified mongoose models",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": "",
+  "author": "Jacob Straszynski",
+  "license": "BSD",
+  "dependencies": {
+    "bluebird": "~1.2.4",
+    "mongoose": "~3.8.8"
+  }
+}
