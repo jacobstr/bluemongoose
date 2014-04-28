@@ -22,5 +22,5 @@ module.exports = (grunt) ->
         options:
           spawn: false
 
-  grunt.registerTask 'test', [ 'watch:test' ]
+  grunt.registerTask 'test', [ 'mochaTest', 'watch:test' ]
   return
