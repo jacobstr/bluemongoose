@@ -19,8 +19,7 @@ module.exports = (grunt) ->
       test:
         files: ['lib/**/*.coffee', 'test/**/*.coffee']
         tasks: ['mochaTest']
-        options:
-          spawn: false
 
   grunt.registerTask 'test', [ 'mochaTest', 'watch:test' ]
+
   return
