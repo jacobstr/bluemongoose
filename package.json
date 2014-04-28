@@ -19,6 +19,8 @@
     "grunt-mocha-test": "~0.10.2",
     "sinon": "~1.9.1",
     "chai": "~1.9.1",
-    "sinon-chai": "~2.5.0"
+    "sinon-chai": "~2.5.0",
+    "coffee-script": "~1.7.1",
+    "coffee-errors": "~0.8.6"
   }
 }
